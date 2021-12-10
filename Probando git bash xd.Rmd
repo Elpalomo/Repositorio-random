@@ -1,0 +1,30 @@
+---
+title: "Probando git"
+author: "Harold Garcia"
+date: "10/12/2021"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1
+```{r}
+(factorial(20)/(factorial(7)*factorial(13)))*0.4^7*0.6^13
+```
+
+### 2
+```{r}
+(5^6)*exp(-5)/factorial(6)
+```
+
+### 3
+```{r}
+((2^11)-1)/2-1
+```
+
+### 4
+```{r}
+(0.3)*(0.15)/(0.3*0.15+0.2*0.8+0.5*0.12)
+```
